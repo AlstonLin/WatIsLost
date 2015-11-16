@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="From"
+        android:textSize="38sp"
+        android:layout_weight= "2"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="#FBC02D"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="4">
+
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/buildingStart"
+            android:textSize="36sp"/>
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/nodeStart"
+            android:textSize="36sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="To"
+        android:layout_weight= "2"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FBC02D"
+        android:layout_gravity="center_horizontal"
+        android:textSize="38sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="4">
+
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/buildingEnd"
+            android:textSize="36sp"/>
+
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/nodeEnd"
+            android:textSize="36sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Find My Path"
+        android:textSize="24sp"
+        android:background="#FBC02D"
+        android:id="@+id/submit"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:layout_weight="2" />
+
+
+</LinearLayout>

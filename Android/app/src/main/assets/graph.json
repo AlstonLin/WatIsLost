@@ -1,0 +1,192 @@
+{
+	"maps": [{ 
+		"id" : 1,
+		"name" : "Floor 5",
+		"buildingId" : 0,
+		"topLeftLoc" : {
+			"latitude" :-1,
+			"longitude" : -1
+		},
+		"bottomRightLoc" : {
+			"latitude" : -1,
+			"longitude" : -1
+		},
+		"image" : "E5F3.png"
+	}],
+ 	"nodes" : [{
+		"id": 0,
+		"mapId" : 1,
+		"searchable" : true, 	
+		"buildingId" : 0,
+		"name" : "Rm. 3034",
+		"location" : {
+			"latitude" : -1,
+			"longitude" : -1
+		},
+		"widthPercentage" : 0.18628,
+		"heightPercentage" : 0.20455
+	},{
+			"id": 1,
+			"mapId" : 1,
+			"searchable" : true, 	
+			"buildingId" : 0,
+			"name" : "Rm. 3027",
+			"location" : {
+				"latitude" : -1,
+				"longitude" : -1
+			},
+			"widthPercentage" : 0.25882,
+			"heightPercentage" : 0.40910
+	},{
+			"id": 2,
+			"mapId" : 1,
+			"searchable" : true, 	
+			"buildingId" : 0,
+			"name" : "Rm. 3102",
+			"location" : {
+				"latitude" : -1,
+				"longitude" : -1
+			},
+			"widthPercentage" : 0.73529,
+			"heightPercentage" : 0.43939
+	},{
+			"id": 3,
+			"mapId" : 1,
+			"searchable" : true, 	
+			"buildingId" : 0,
+			"name" : "Rm. 3106",
+			"location" : {
+				"latitude" : -1,
+				"longitude" : -1
+			},
+			"widthPercentage" : 0.61765,
+			"heightPercentage" : 0.19697
+	},{
+			"id": 5,
+			"mapId" : 1,
+			"searchable" : false, 	
+			"buildingId" : 0,
+			"name" : "Stair E",
+			"location" : {
+				"latitude" : -1,
+				"longitude" : -1
+			},
+			"widthPercentage" : 0.56373,
+			"heightPercentage" : 0.39394
+	},{
+			"id": 6,
+			"mapId" : 1,
+			"searchable" : false, 	
+			"buildingId" : 0,
+			"name" : "Intersection 1",
+			"location" : {
+				"latitude" : -1,
+				"longitude" : -1
+			},
+			"widthPercentage" : 0.30980,
+			"heightPercentage" : 0.20455
+	},{
+			"id": 7,
+			"mapId" : 1,
+			"searchable" : false, 	
+			"buildingId" : 0,
+			"name" : "Intersection 2",
+			"location" : {
+				"latitude" : -1,
+				"longitude" : -1
+			},
+			"widthPercentage" : 0.58824,
+			"heightPercentage" : 0.20455
+	},{
+			"id": 8,
+			"mapId" : 1,
+			"searchable" : false, 	
+			"buildingId" : 0,
+			"name" : "Intersection 3",
+			"location" : {
+				"latitude" : -1,
+				"longitude" : -1
+			},
+			"widthPercentage" : 0.58824,
+			"heightPercentage" : 0.40910
+	},{
+			"id": 9,
+			"mapId" : 1,
+			"searchable" : false, 	
+			"buildingId" : 0,
+			"name" : "Intersection 4",
+			"location" : {
+				"latitude" : -1,
+				"longitude" : -1
+			},
+			"widthPercentage" : 0.30980,
+			"heightPercentage" : 0.40910
+	},{
+			"id": 10,
+			"mapId" : 1,
+			"searchable" : false, 	
+			"buildingId" : 0,
+			"name" : "Intersection 5",
+			"location" : {
+				"latitude" : -1,
+				"longitude" : -1
+			},
+			"widthPercentage" : 0.63725,
+			"heightPercentage" : 0.43939
+	}],	
+	"edges" : [{
+		"nodeAId" : 0,
+		"nodeBId": 6,
+		"distance" : 16.6,
+		"outside" : false 
+	},{
+		"nodeAId" : 1,
+		"nodeBId": 9,
+		"distance" : 13.9,
+		"outside" : false 
+	},{
+		"nodeAId" : 2,
+		"nodeBId": 10,
+		"distance" : 13.2,
+		"outside" : false 
+	},{
+		"nodeAId" : 3,
+		"nodeBId": 7,
+		"distance" : 3.9,
+		"outside" : false 
+	},{
+		"nodeAId" : 5,
+		"nodeBId": 8,
+		"distance" : 3.3,
+		"outside" : false 
+	},{
+		"nodeAId" : 6,
+		"nodeBId": 9,
+		"distance" : 9.9,
+		"outside" : false 
+	},{
+		"nodeAId" : 6,
+		"nodeBId": 7,
+		"distance" : 37.4,
+		"outside" : false 
+	},{
+		"nodeAId" : 7,
+		"nodeBId": 8,
+		"distance" : 9.9,
+		"outside" : false 
+	},{
+		"nodeAId" : 8,
+		"nodeBId": 9,
+		"distance" : 37.4,
+		"outside" : false 
+	},{
+		"nodeAId" : 10,
+		"nodeBId": 8,
+		"distance" : 6.6,
+		"outside" : false 
+	}],
+	"buildings" : [{
+		"id" : 0,
+		"name" : "E5"
+	}]
+}
